@@ -1,4 +1,4 @@
-class Compra():
+class Compra:
     def __init__(self, numero, produto, valor, valor_total = 0):
         self.numero = numero
         self.produto = produto

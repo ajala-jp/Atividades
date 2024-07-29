@@ -1,4 +1,4 @@
-class Passagem():
+class Passagem:
     def __init__(self, preco, assento):
         self.preco = preco
         self.assento = assento

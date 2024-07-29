@@ -1,4 +1,4 @@
-class Ingresso():
+class Ingresso:
     def __init__(self, preco, setor):
         self.__preco = preco 
         self.setor = setor

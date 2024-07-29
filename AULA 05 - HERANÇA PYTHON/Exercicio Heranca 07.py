@@ -1,4 +1,4 @@
-class Brinquedos():
+class Brinquedos:
     def __init__(self, nome, cor, tamanho, preco):
         self.nome = nome
         self.cor = cor
