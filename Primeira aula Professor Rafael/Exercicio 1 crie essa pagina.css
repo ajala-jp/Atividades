@@ -1,0 +1,71 @@
+.titulo01{
+    
+    color: black;
+    font-size: 60px;  
+}
+h2 {
+    
+    color: purple;
+    font-size: 40px;
+}
+
+.sobreeu{
+    margin: auto;
+    width: 40%;
+    color: rgb(0,0,0);
+    font-size: 25px;
+
+}
+.sobreeu:hover{
+    color: rgb(218, 149, 0);
+    
+}
+
+.nicolas {
+    
+    color: white
+}
+
+.nicolas:hover{
+    color:black
+}
+
+
+body {
+    margin: 0;
+    text-align: center  ;
+    display: flex;
+    flex-direction: column;
+    font-family:'Mingzat', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+li{
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    text-decoration:  none;
+    color: cornflowerblue;
+}
+
+img {
+    margin: auto;
+    width: 75%;
+    height: 50%;
+}
+
+li {
+    
+   
+    text-align:inherit;
+    list-style-type: none;
+}
+
+h6{
+    margin: 25px 20px 0px 20px;
+}
