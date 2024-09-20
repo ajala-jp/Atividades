@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+/* Imagens */
+
+.logotipo{
+    margin-left: 15px;
+    border-radius: 100%;
+    border: solid white 2px;
+    height: 70px;
+    width: 70px;
+}
+
+/* Div */  
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom: 5px solid rgb(0, 255, 64) ;
+    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.cabeca1{
+    width: 290px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    display: flex   ;
+}
+
+.cabeca2{
+    justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+.corpo{
+    justify-content: center;
+    background-color: black;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    height: 110vh;
+    width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    display: flex;  
+}
+
+.bgcorpo{
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-image: url(./imagens/11.webp);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Escritas */
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(65, 228, 0);
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h3{
+    margin-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
