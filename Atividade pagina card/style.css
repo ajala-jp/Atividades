@@ -4,12 +4,26 @@ body{
 
 /* Imagens */
 
+
+
 .logotipo{
     margin-left: 15px;
     border-radius: 100%;
     border: solid white 2px;
     height: 70px;
     width: 70px;
+}
+
+.imgcard{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.imgcard2{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 /* Div */  
@@ -34,7 +48,7 @@ header{
     justify-content: space-around;
     align-items: center;
     height: 100px;
-    display: flex   ;
+    display: flex;
 }
 
 .cabeca2{
@@ -44,28 +58,118 @@ header{
 }
 
 .corpo{
-    justify-content: center;
     background-color: black;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
-    height: 110vh;
+    border: 3px solid white;
+    height: 1050px;
     width: 1200px;
     margin: auto;
-    margin-top: 0px;
     display: flex;  
+    flex-direction: column;
 }
 
+.corpo2{
+    display: flex;
+    flex-direction: row;
+}
+
+.corpo3{
+    margin: auto 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.rodape{
+    background-size: 200px 200px;
+    background-image: url(imagens/23526721-cubico-pixel-jogos-terra-blocos-fundo-padronizar-vetor.jpg);
+    border: 5px solid wheat;
+    margin: 30px auto;
+    width: 1600px;
+    height: 500px;
+    background-color: transparent;
+}
+
+
 .bgcorpo{
-    height: 110vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-image: url(./imagens/11.webp);
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
 }
 
+.cards{
+    flex-direction: column;
+    display: flex;
+    border: 4px solid rgb(0, 255, 64);
+    margin: 20px auto;
+    background-color: rgb(172, 139, 50);
+    width: 250px;
+    height: 400px;
+}
+
+
+.txtdiv{
+    display: flex;
+    flex-direction: column;
+    height:25px;
+    background-color: black;
+
+}
+
+.divinfocard{
+    display: flex;
+    flex-direction: column  ;
+}
+
+.txt1{
+    border-radius: 90px;
+    margin: auto;
+    background-color: wheat;
+    width: 300px;
+}
+
+.txt2{
+    margin: auto;
+    border-radius:60px ;
+    background-color: white;
+    width: 1200px;
+}
+
+
+
 
 
 /* Escritas */
+
+.titulo1{
+    border-radius: 90px;
+    border: 5px white solid;
+    font-style: oblique;
+    color: rgb(16, 104, 8);
+    font-size: 30px;
+}
+
+.titulo2{
+    border: 5px black solid;
+    border-radius:60px ;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infocard{
+    font-family:cursive ;
+    font-size: 13px;
+}
+
+.txtcard{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
 
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -73,7 +177,7 @@ h1{
 }
 
 h2{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
