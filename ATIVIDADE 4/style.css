@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+/* Imagens*/
+
+
+.rezende{
+    width: 400px;
+    height: 400px;
+    object-fit:unset;
+
+}
+
+/*Div */
+
+.conteiner{
+    
+    display: flex;
+}
+
+.titulo{
+    height: 110px;
+    margin-bottom: 150px;
+    border-bottom: 2px solid white;
+}
+
+
+.esquerda{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 11, 11);
+    width: 400px;
+    height: 110vh;
+}
+
+.rezendediv{
+   margin-top: auto;
+}
+
+.meiocima{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+}
+
+.totalmeio{
+
+}
+ 
+
+/* Escrita */
+
+.rezendebio{
+    margin-left: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textosmeio{
+    margin-bottom: 0;
+    margin-left: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.textomenu{
+    margin: 20px 200px 10px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 60px auto 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
