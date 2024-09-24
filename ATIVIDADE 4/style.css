@@ -45,9 +45,19 @@ body{
     width: 1200px;
 }
 
-.totalmeio{
-
+.totalvideo{
+    display: flex;
+    height: 50%;
+    justify-content: center;
 }
+
+.videorezende{
+    width: 1280px;
+    height: 720px;
+    background-color: black;
+}
+
+.totalmeio
  
 
 /* Escrita */
