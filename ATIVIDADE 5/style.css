@@ -1,0 +1,82 @@
+body{
+    background-image: url(./imagens/wano-kuni-one-piece-thumb.jpg);
+    margin: 0;
+    backdrop-filter: blur(5px);
+    
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quadradomeio{
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    width: 1280px;
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem{
+    width: 50%;
+}
+
+img{
+    border-inline: 3px solid #c77171    ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    object-fit:cover;
+    width: 680px;
+    height: 620px;
+}
+
+.login{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(73, 55, 55);
+    width: 600px;
+    height: 620px;
+}
+
+input{
+    font-size: 20px;
+    margin: 30px 0 20px 0;
+    height: 30px ;
+    width: 400px;
+    border-radius: 10px;
+    border: #c77171 solid 2px;
+    font-family: monospace;
+}
+
+
+h1{
+    margin: 10px auto 20px auto;
+    color: white;
+    font-family:monospace;
+    font-size: 40px;
+}
+
+
+a{
+    padding: 8px;
+    font-family: monospace;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #c77171;
+}
