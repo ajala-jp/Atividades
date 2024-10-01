@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+/* Divs */
+
+.conteiner{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.geralmeio{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    height: ;
+}
+
+header{
+    align-content: center;
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./images/donkey_kong_sunset_falls___wallpaper_by_supabloopa_dck321a-pre.jpg);
+    position: absolute;
+}
+
+.totalmeio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 300px;
+    position: relative;
+    width: 1200px;
+    height:max-content;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.baixo{
+
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Imagens */
+.gif{
+    position: absolute;
+    animation: corrida 3s linear infinite;
+    top: 20px;
+}
+
+.logo{
+    width: 500px;
+}
+
+/* Escrita */
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+@keyframes corrida{
+    from{left: -50%;}
+    to{left: 100%;}
+    
+}
