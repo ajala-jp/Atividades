@@ -34,35 +34,103 @@ header{
 }
 
 .card{
+    border-radius: 20px;
     display: grid;
     grid-template-columns: repeat(8, 50px);
     grid-template-rows: repeat(10,50px);
     grid-column: 3/7;
-    grid-row: 2/7;
+    grid-row: 3/8;
     background-color: rgb(0, 0, 0);
+    align-items: center;
 }
 
+.card2{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(10,50px);
+    grid-column: 8/12;
+    grid-row: 3/8;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.card3{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(10,50px);
+    grid-column: 13/17;
+    grid-row: 3/8;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+
+button{
+    font-size: 20px;
+    height: 50px;
+    border-radius: 20px;
+    grid-row: 9/10;
+    grid-column: 3/7;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(165, 121, 25);
+}
 /* Textos */
 
 .infotxt{
-    padding: 20px;
+    padding: 30px;
     font-size: 25px;
     font-family: monospace;
     color: white;
 }
 
 
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+    grid-column: 6/15;
+}
+
+.infocard{
+    font-family: monospace;
+    font-size: 30px;
+    grid-column: 2/8;
+    grid-row: 7/9;
+    text-align: center;
+    color: white;
+}
+
+
 /* Imagens */
 
+.logoloja{
+    align-items: center;
+    justify-content: center;
+}
+
+.place{
+    grid-row:9/10;
+    grid-column: 7/8;
+    width: 100px;
+}
+
 .cardfoto{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
     grid-column: 1/9;
     grid-row: 1/7;
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
 }
+
 
 .logo{
     padding: 10px;
-    height: 100px;
+    height: 150px;
 }

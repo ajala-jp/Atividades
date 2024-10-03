@@ -1,0 +1,121 @@
+body{
+    background-image: url(./imagens/KRtDLDX_Dream_Land.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/*divs*/
+
+.conteiner{
+    height: 100vh;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(3,30px);
+    background-color: rgb(233, 146, 204);
+    height: auto;
+}
+
+.corpo{
+    display:  grid;
+    grid-template-columns: repeat(10,190px);
+    grid-template-rows: repeat(15,200px);
+    height: 100%;
+}
+
+.assunto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    grid-column: 2/10;
+    grid-row: 2/5;
+    background-color: white;
+}
+
+.lado1{
+    display: grid;
+    grid-template-rows: repeat(3,30px);
+    grid-template-columns: repeat(5,50px);
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.lado2{
+    font-family:cursive;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    grid-column: 5/6;
+    grid-row:1/4 ;
+}
+
+.transformation{
+    border: 5px solid wheat;
+    border-radius: 20px;
+    background-color: pink;
+    grid-column: 2/10;
+    grid-row: 6/10;
+}
+
+
+/*imagens*/
+.kirby{
+    opacity: 1;
+    top: 53.5%;
+    position: absolute;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover
+}
+
+.kirby:hover{
+    opacity: 0;
+    top: 51.4%;
+    position: absolute;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover
+}
+.kirby2{
+    position: relative;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.logotipo{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    width: 70px;
+}
+
+/*textos*/
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.topico{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    grid-column: 4/8;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    text-decoration:underline pink;
+}
+
+.infotxt{
+    color: white;
+    font-size: 20px;
+}
