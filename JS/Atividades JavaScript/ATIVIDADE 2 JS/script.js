@@ -13,4 +13,3 @@ for(j = 0; j < lista2.length; j++){
 const lista4 = [...new Set(lista3)]
 
 console.log(lista4)
-
