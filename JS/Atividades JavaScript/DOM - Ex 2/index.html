@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM exercicio 2</title>
+    <style>
+
+        body{
+            height: 100vh;
+            margin: 0;
+        }        
+
+        .total{
+            position: relative;
+            display:  flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: black;
+            background-image: linear-gradient(to right, red 30%, transparent 50%, blue 70%);
+        }
+
+        #num{
+            margin: auto;
+            color: white;
+            font-family: monospace;
+        }
+
+        #b2,#b3{
+            border: 2px solid white;
+            color: white;
+            background-color: black;
+            border-radius: 20px;
+            padding: 2px;
+            font-size: 15px;
+            cursor:pointer;
+            z-index: 1;
+            
+        }
+
+        #b2:hover{
+            color: white;
+            background-color: red;
+            
+        }
+        
+        #b3:hover{
+        
+            color: rgb(248, 248, 248);
+            background-color: rgb(19, 135, 189);
+        }
+
+        .sla{
+        
+            position: relative;
+            width: 400px;
+        }
+
+        .sla2{
+            width: 400px;
+            margin: 0;
+        }
+
+        .total2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vw;
+            
+           
+        }
+
+        .total3{
+            margin-top: 300px;
+            display: flex;
+            width: 390px;
+            height: auto;
+            position: absolute;
+            top: 150px;
+            gap: 30px;
+            
+        }
+
+        .dg{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .dgk{
+            width: 300px;
+        }
+
+        @keyframes vleocidade {
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="total"> 
+        <div class="total2">
+            <img src="Matrix-pill-qptmrc0vwaiwgds02t73ef1hbxyqk0of58o3ibt906.webp" alt="" class="sla">
+            <img src="Novo Projeto (3).png" alt="" class="sla2">
+            
+        </div>
+        <div class="total3">
+            <button id="b2">Clique para aumentar</button>
+            <h1 id="num">Cliques : 0</h1>
+            <button id="b3">Clique para diminuir</button>
+            
+        </div>
+        <div class="dg">
+            <img src="./tumblr_mkwhjb8NAM1qfgwydo1_500.gif" class="dgk" alt="" class="gif">
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+    
+</body>
+</html>
