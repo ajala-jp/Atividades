@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0;
+    height: 99vh;
+}
+
+
+
+.joystick{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+}
+
+.joyDireito{
+    display: flex;
+    align-items: center;
+}
+
